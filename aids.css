@@ -1,0 +1,111 @@
+
+
+.cdiv {
+    text-align: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.flag {
+    display: flex;
+    width: 600px;
+    height: 300px;
+}
+
+.stripe {
+    width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.red-stripe {
+    background-color: #C8102E;
+}
+
+.blue-stripe {
+    background-color: #0033A0;
+}
+
+.soyonbo {
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 25%;
+    height: 25%;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.bars {
+    width: 4px;
+    height: 25%;
+    background-color: yellow;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 25px solid yellow;
+}
+
+.moon {
+    width: 20%;
+    height: 20%;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: #C8102E;
+    position: relative;
+}
+
+.moon::before {
+    content: '';
+    width: 20%;
+    height: 20%;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: #C8102E;
+    position: absolute;
+    top: -50%;
+    left: -50%;
+}
+
+.sun {
+    width: 15%;
+    height: 15%;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: yellow;
+}
+
+.bottom-bar {
+    width: 4px;
+    height: 25%;
+    background-color: yellow;
+}
+
+.flame {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid yellow;
+    margin-top: -5%;
+}
